@@ -1,0 +1,144 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.img-icon {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  margin: inherit;
+}
+
+body {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets-futureplan/img/bg-futureme.png");
+}
+
+.front-back-pic {
+  height: 600px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgfront {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: -850px;
+}
+
+.center-p {
+  padding: 50px 5px 0 5px;
+  text-align: center;
+  color: #FFF;
+  font-family: Inknut Antiqua;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+  opacity: 1;
+}
+
+.text-bg-dark {
+  opacity: 0.7;
+  border-radius: 0 0 200px 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.center-p {
+}
+
+.row-div {
+  height: 400px;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: 300px;
+  height: auto;
+}
+
+.col-3 {
+  width: 300px;
+  height: auto;
+}
+
+.p-mid {
+  margin: auto;
+  width: 300px;
+  height: auto;
+  padding: 10px 5px;
+}
+
+.col-2 {
+  width: 400px!important;
+}
+
+.img-back {
+  margin: auto;
+  flex-shrink: 0;
+}
+
+.img-front {
+  margin: 0;
+  flex-shrink: 0;
+}
